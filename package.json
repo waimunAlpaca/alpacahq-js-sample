@@ -1,0 +1,22 @@
+{
+  "name": "alpacahq-js-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waimunAlpaca/alpacahq-js-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waimunAlpaca/alpacahq-js-sample/issues"
+  },
+  "homepage": "https://github.com/waimunAlpaca/alpacahq-js-sample#readme",
+  "dependencies": {
+    "@alpacahq/alpaca-trade-api": "^2.13.0"
+  }
+}
