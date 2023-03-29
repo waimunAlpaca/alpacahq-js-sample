@@ -44,6 +44,12 @@ To run the websocket service for Crypto
 node crypto-websocket.js 
 ```
 
+To run the SSE service
+
+```
+node sse.js 
+```
+
 ## References
 
 In the [examples](https://github.com/alpacahq/alpaca-trade-api-js/tree/master/examples) folder there's a few algorithms that connect to the paper-trading API.
