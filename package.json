@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/waimunAlpaca/alpacahq-js-sample#readme",
   "dependencies": {
-    "@alpacahq/alpaca-trade-api": "^2.13.0"
+    "@alpacahq/alpaca-trade-api": "^2.13.0",
+    "eventsource": "^2.0.2"
   }
 }
