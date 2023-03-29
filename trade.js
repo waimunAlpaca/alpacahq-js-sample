@@ -26,10 +26,10 @@ class Trade {
   }
 }
 
-let trade = new Trade({
+let client = new Trade({
   keyId: API_KEY,
   secretKey: API_SECRET,
   paper: true,
 })
 
-trade.getAccount()
+client.getAccount()
