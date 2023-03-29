@@ -11,14 +11,10 @@ class DataStream {
       paper: true,
     })
 
-    // const socket = this.alpaca.crypto_stream_v2
     const socket = this.alpaca.data_stream_v2
 
     socket.onConnect(function () {
       console.log('Connected')
-
-      //   socket.subscribeForTrades(['BTCUSD'])
-      //   socket.subscribeForTrades(['ETHUSD'])
 
       socket.subscribeForQuotes(['AAPL'])
       socket.subscribeForTrades(['FB'])
@@ -28,18 +24,6 @@ class DataStream {
 
     socket.onError((err) => {
       console.log(err)
-    })
-
-    // socket.onCryptoTrade((trade) => {
-    //   console.log(trade)
-    // })
-
-    // socket.onCryptoQuote((quote) => {
-    //   console.log(quote)
-    // })
-
-    socket.onCryptoTrade((trade) => {
-      console.log(trade)
     })
 
     socket.onStockTrade((trade) => {
